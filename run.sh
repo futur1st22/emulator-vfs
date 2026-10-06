@@ -1,2 +1,2 @@
 #!/bin/sh
-python3 src/emulator.py "$@"
+python3 "$(dirname "$0")/src/emulator.py" "$@"

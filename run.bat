@@ -1,2 +1,2 @@
 @echo off
-py src\emulator.py %*
+py "%~dp0src\emulator.py" %*
